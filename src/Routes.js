@@ -1,8 +1,8 @@
 import React from 'react';
 import { Switch, Route } from 'react-router';
-import Dashboard from './Dashboard';
-import Apple from './Apple';
-import NotFound from './NotFound';
+import Dashboard from './page/Dashboard';
+import Apple from './page/Apple';
+import NotFound from './page/NotFound';
 
 const Routes = props => {
     return (

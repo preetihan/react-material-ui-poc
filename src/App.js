@@ -4,7 +4,7 @@ import Typography from '@material-ui/core/Typography';
 import { makeStyles } from '@material-ui/core/styles';
 
 import './App.css';
-import MiniDrawer from './MiniDrawer';
+import Drawer from './component/Drawer';
 
 function Copyright() {
   return (
@@ -43,7 +43,7 @@ function App() {
     <div className={classes.root}>
       <CssBaseline />
       <div className="App">
-        <MiniDrawer/>
+        <Drawer/>
       </div>
       <footer className={classes.footer}>
         <Copyright />

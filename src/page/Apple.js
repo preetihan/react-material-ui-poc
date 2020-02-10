@@ -1,5 +1,5 @@
 import React from 'react';
-import SimpleCard from './SimpleCard';
+import SimpleCard from '../component/SimpleCard';
 
 class Apple extends React.Component {
     render() {

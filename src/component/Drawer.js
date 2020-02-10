@@ -24,7 +24,7 @@ import NotificationsIcon from '@material-ui/icons/Notifications';
 import MoreIcon from '@material-ui/icons/MoreVert';
 import DashboardIcon from '@material-ui/icons/Dashboard';
 import AppleIcon from '@material-ui/icons/Apple';
-import Routes from './Routes';
+import Routes from '../Routes';
 import { Link } from "react-router-dom";
 
 const drawerWidth = 240;
@@ -220,7 +220,7 @@ export default function MiniDrawer() {
             <MenuIcon />
           </IconButton>
           <Typography variant="h6" noWrap>
-            Home
+            React with Material-UI
           </Typography>
           <div className={classes.grow} />
           <div className={classes.sectionDesktop}>
