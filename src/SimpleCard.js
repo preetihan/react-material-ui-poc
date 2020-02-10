@@ -30,23 +30,19 @@ export default function SimpleCard() {
   return (
     <Card className={classes.root}>
       <CardContent>
-        <Typography className={classes.title} color="textSecondary" gutterBottom>
-          Word of the Day
-        </Typography>
         <Typography variant="h5" component="h2">
-          be{bull}nev{bull}o{bull}lent
+          This website was developed on Macbook Pro! 
         </Typography>
         <Typography className={classes.pos} color="textSecondary">
-          adjective
+          with Visual Studio Code
         </Typography>
         <Typography variant="body2" component="p">
-          well meaning and kindly.
+          and React with Material design.
           <br />
-          {'"a benevolent smile"'}
         </Typography>
       </CardContent>
       <CardActions>
-        <Button size="small">Learn More</Button>
+        <Button size="small">Thank you!</Button>
       </CardActions>
     </Card>
   );
